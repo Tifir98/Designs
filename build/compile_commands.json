@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/user/app/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/user/app/headers  -g   -o CMakeFiles/ConsoleDesignApps.dir/main.cpp.o -c /home/user/app/main.cpp",
+  "file": "/home/user/app/main.cpp"
+},
+{
+  "directory": "/home/user/app/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/user/app/headers  -g   -o CMakeFiles/ConsoleDesignApps.dir/menu/menu.cpp.o -c /home/user/app/menu/menu.cpp",
+  "file": "/home/user/app/menu/menu.cpp"
+},
+{
+  "directory": "/home/user/app/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/user/app/headers  -g   -o CMakeFiles/ConsoleDesignApps.dir/sources/AbstractFactory/Delivery.cpp.o -c /home/user/app/sources/AbstractFactory/Delivery.cpp",
+  "file": "/home/user/app/sources/AbstractFactory/Delivery.cpp"
+},
+{
+  "directory": "/home/user/app/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/user/app/headers  -g   -o CMakeFiles/ConsoleDesignApps.dir/sources/AbstractFactory/Transportation.cpp.o -c /home/user/app/sources/AbstractFactory/Transportation.cpp",
+  "file": "/home/user/app/sources/AbstractFactory/Transportation.cpp"
+},
+{
+  "directory": "/home/user/app/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/user/app/headers  -g   -o CMakeFiles/ConsoleDesignApps.dir/sources/AbstractFactory/Package.cpp.o -c /home/user/app/sources/AbstractFactory/Package.cpp",
+  "file": "/home/user/app/sources/AbstractFactory/Package.cpp"
+}
+]
