@@ -6,6 +6,20 @@
 
 #IncludeRegexTransform: 
 
+/home/user/app/DesignPatternHandler/DPHandler.cpp
+DPHandler.h
+/home/user/app/DesignPatternHandler/DPHandler.h
+
+/home/user/app/DesignPatternHandler/DPHandler.h
+../menu/utility.h
+/home/user/app/menu/utility.h
+../headers/AbstractFactory/Delivery.h
+/home/user/app/headers/AbstractFactory/Delivery.h
+../headers/Strategy/StringStrategy.h
+/home/user/app/headers/Strategy/StringStrategy.h
+thread
+-
+
 /home/user/app/headers/AbstractFactory/AbstractClasses/Package.h
 
 /home/user/app/headers/AbstractFactory/AbstractClasses/Vehicle.h
@@ -36,29 +50,27 @@ iostream
 AbstractClasses/Vehicle.h
 /home/user/app/headers/AbstractFactory/AbstractClasses/Vehicle.h
 
-/home/user/app/main.cpp
-iostream
--
-menu/menu.h
-/home/user/app/menu/menu.h
-headers/AbstractFactory/Delivery.h
-/home/user/app/headers/AbstractFactory/Delivery.h
-
-/home/user/app/menu/menu.cpp
-menu.h
-/home/user/app/menu/menu.h
-
-/home/user/app/menu/menu.h
+/home/user/app/headers/Strategy/Strategies.h
 iostream
 -
 vector
 -
+math.h
+-
+algorithm
+-
 thread
 -
-../headers/AbstractFactory/Delivery.h
-/home/user/app/headers/AbstractFactory/Delivery.h
-utility.h
-/home/user/app/menu/utility.h
+stdio.h
+-
+string.h
+-
+
+/home/user/app/headers/Strategy/StringStrategy.h
+thread
+-
+Strategies.h
+/home/user/app/headers/Strategy/Strategies.h
 
 /home/user/app/menu/utility.h
 

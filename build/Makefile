@@ -520,6 +520,33 @@ ContinuousSubmit/fast:
 	$(MAKE) -f CMakeFiles/ContinuousSubmit.dir/build.make CMakeFiles/ContinuousSubmit.dir/build
 .PHONY : ContinuousSubmit/fast
 
+DesignPatternHandler/DPHandler.o: DesignPatternHandler/DPHandler.cpp.o
+
+.PHONY : DesignPatternHandler/DPHandler.o
+
+# target to build an object file
+DesignPatternHandler/DPHandler.cpp.o:
+	$(MAKE) -f CMakeFiles/ConsoleDesignApps.dir/build.make CMakeFiles/ConsoleDesignApps.dir/DesignPatternHandler/DPHandler.cpp.o
+.PHONY : DesignPatternHandler/DPHandler.cpp.o
+
+DesignPatternHandler/DPHandler.i: DesignPatternHandler/DPHandler.cpp.i
+
+.PHONY : DesignPatternHandler/DPHandler.i
+
+# target to preprocess a source file
+DesignPatternHandler/DPHandler.cpp.i:
+	$(MAKE) -f CMakeFiles/ConsoleDesignApps.dir/build.make CMakeFiles/ConsoleDesignApps.dir/DesignPatternHandler/DPHandler.cpp.i
+.PHONY : DesignPatternHandler/DPHandler.cpp.i
+
+DesignPatternHandler/DPHandler.s: DesignPatternHandler/DPHandler.cpp.s
+
+.PHONY : DesignPatternHandler/DPHandler.s
+
+# target to generate assembly for a file
+DesignPatternHandler/DPHandler.cpp.s:
+	$(MAKE) -f CMakeFiles/ConsoleDesignApps.dir/build.make CMakeFiles/ConsoleDesignApps.dir/DesignPatternHandler/DPHandler.cpp.s
+.PHONY : DesignPatternHandler/DPHandler.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -655,6 +682,60 @@ sources/AbstractFactory/Transportation.cpp.s:
 	$(MAKE) -f CMakeFiles/ConsoleDesignApps.dir/build.make CMakeFiles/ConsoleDesignApps.dir/sources/AbstractFactory/Transportation.cpp.s
 .PHONY : sources/AbstractFactory/Transportation.cpp.s
 
+sources/Strategy/Strategies.o: sources/Strategy/Strategies.cpp.o
+
+.PHONY : sources/Strategy/Strategies.o
+
+# target to build an object file
+sources/Strategy/Strategies.cpp.o:
+	$(MAKE) -f CMakeFiles/ConsoleDesignApps.dir/build.make CMakeFiles/ConsoleDesignApps.dir/sources/Strategy/Strategies.cpp.o
+.PHONY : sources/Strategy/Strategies.cpp.o
+
+sources/Strategy/Strategies.i: sources/Strategy/Strategies.cpp.i
+
+.PHONY : sources/Strategy/Strategies.i
+
+# target to preprocess a source file
+sources/Strategy/Strategies.cpp.i:
+	$(MAKE) -f CMakeFiles/ConsoleDesignApps.dir/build.make CMakeFiles/ConsoleDesignApps.dir/sources/Strategy/Strategies.cpp.i
+.PHONY : sources/Strategy/Strategies.cpp.i
+
+sources/Strategy/Strategies.s: sources/Strategy/Strategies.cpp.s
+
+.PHONY : sources/Strategy/Strategies.s
+
+# target to generate assembly for a file
+sources/Strategy/Strategies.cpp.s:
+	$(MAKE) -f CMakeFiles/ConsoleDesignApps.dir/build.make CMakeFiles/ConsoleDesignApps.dir/sources/Strategy/Strategies.cpp.s
+.PHONY : sources/Strategy/Strategies.cpp.s
+
+sources/Strategy/StringStrategy.o: sources/Strategy/StringStrategy.cpp.o
+
+.PHONY : sources/Strategy/StringStrategy.o
+
+# target to build an object file
+sources/Strategy/StringStrategy.cpp.o:
+	$(MAKE) -f CMakeFiles/ConsoleDesignApps.dir/build.make CMakeFiles/ConsoleDesignApps.dir/sources/Strategy/StringStrategy.cpp.o
+.PHONY : sources/Strategy/StringStrategy.cpp.o
+
+sources/Strategy/StringStrategy.i: sources/Strategy/StringStrategy.cpp.i
+
+.PHONY : sources/Strategy/StringStrategy.i
+
+# target to preprocess a source file
+sources/Strategy/StringStrategy.cpp.i:
+	$(MAKE) -f CMakeFiles/ConsoleDesignApps.dir/build.make CMakeFiles/ConsoleDesignApps.dir/sources/Strategy/StringStrategy.cpp.i
+.PHONY : sources/Strategy/StringStrategy.cpp.i
+
+sources/Strategy/StringStrategy.s: sources/Strategy/StringStrategy.cpp.s
+
+.PHONY : sources/Strategy/StringStrategy.s
+
+# target to generate assembly for a file
+sources/Strategy/StringStrategy.cpp.s:
+	$(MAKE) -f CMakeFiles/ConsoleDesignApps.dir/build.make CMakeFiles/ConsoleDesignApps.dir/sources/Strategy/StringStrategy.cpp.s
+.PHONY : sources/Strategy/StringStrategy.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -695,6 +776,9 @@ help:
 	@echo "... ContinuousMemCheck"
 	@echo "... ContinuousTest"
 	@echo "... ContinuousSubmit"
+	@echo "... DesignPatternHandler/DPHandler.o"
+	@echo "... DesignPatternHandler/DPHandler.i"
+	@echo "... DesignPatternHandler/DPHandler.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -710,6 +794,12 @@ help:
 	@echo "... sources/AbstractFactory/Transportation.o"
 	@echo "... sources/AbstractFactory/Transportation.i"
 	@echo "... sources/AbstractFactory/Transportation.s"
+	@echo "... sources/Strategy/Strategies.o"
+	@echo "... sources/Strategy/Strategies.i"
+	@echo "... sources/Strategy/Strategies.s"
+	@echo "... sources/Strategy/StringStrategy.o"
+	@echo "... sources/Strategy/StringStrategy.i"
+	@echo "... sources/Strategy/StringStrategy.s"
 .PHONY : help
 
 

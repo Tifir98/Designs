@@ -12,7 +12,6 @@ public:
     Vehicle* SetCarForCommand();
     Package* SetPackageSizeForCommand();
     void MakeDelivery();
-    void LoadPackage();
 private:
     Vehicle *transporter;
     Package *package;

@@ -1,1 +1,1 @@
-enum class desingPatterns {Delivery};
+enum class desingPatterns {AbsFactory = 1,Strategy};

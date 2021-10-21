@@ -11,6 +11,11 @@
 },
 {
   "directory": "/home/user/app/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/user/app/headers  -g   -o CMakeFiles/ConsoleDesignApps.dir/DesignPatternHandler/DPHandler.cpp.o -c /home/user/app/DesignPatternHandler/DPHandler.cpp",
+  "file": "/home/user/app/DesignPatternHandler/DPHandler.cpp"
+},
+{
+  "directory": "/home/user/app/build",
   "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/user/app/headers  -g   -o CMakeFiles/ConsoleDesignApps.dir/sources/AbstractFactory/Delivery.cpp.o -c /home/user/app/sources/AbstractFactory/Delivery.cpp",
   "file": "/home/user/app/sources/AbstractFactory/Delivery.cpp"
 },
@@ -23,5 +28,15 @@
   "directory": "/home/user/app/build",
   "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/user/app/headers  -g   -o CMakeFiles/ConsoleDesignApps.dir/sources/AbstractFactory/Package.cpp.o -c /home/user/app/sources/AbstractFactory/Package.cpp",
   "file": "/home/user/app/sources/AbstractFactory/Package.cpp"
+},
+{
+  "directory": "/home/user/app/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/user/app/headers  -g   -o CMakeFiles/ConsoleDesignApps.dir/sources/Strategy/Strategies.cpp.o -c /home/user/app/sources/Strategy/Strategies.cpp",
+  "file": "/home/user/app/sources/Strategy/Strategies.cpp"
+},
+{
+  "directory": "/home/user/app/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/user/app/headers  -g   -o CMakeFiles/ConsoleDesignApps.dir/sources/Strategy/StringStrategy.cpp.o -c /home/user/app/sources/Strategy/StringStrategy.cpp",
+  "file": "/home/user/app/sources/Strategy/StringStrategy.cpp"
 }
 ]

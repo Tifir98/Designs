@@ -1,10 +1,9 @@
 #pragma once
 #include <iostream>
 #include <vector>
-#include <thread>
-#include "../headers/AbstractFactory/Delivery.h"
-#include "utility.h"
-
+#include <mutex>
+#include <condition_variable>
+#include "../DesignPatternHandler/DPHandler.h"
 class Menu
 {   
 public:
@@ -12,7 +11,9 @@ public:
     void FirstPage();
     ~Menu();
 private:
-const std::string errorText = "Invalid input";
-void DesingPatternsPage();
-void RunDesignPattern(desingPatterns);
+    const std::string errorText = "Invalid input";
+    DesignPatternHandler* handler;
+    static bool isSafeToProceed;
+    void DesingPatternsPage();
+    void RunDesignPattern(desingPatterns);
 };

@@ -3,7 +3,7 @@
 
 std::string Car::Carried() const
 {
-   return "Package will be carried by Car";    
+   return "[Abstract Factory]Package will be carried by Car";    
 }
 
 bool Car::CanCarryVolume() const
@@ -13,7 +13,7 @@ bool Car::CanCarryVolume() const
 
 std::string Bycicle::Carried() const
 {
-    return "Package will be carried by Bycicle";
+    return "[Abstract Factory]Package will be carried by Bycicle";
 }
 
 bool Bycicle::CanCarryVolume() const
@@ -23,7 +23,7 @@ bool Bycicle::CanCarryVolume() const
 
 std::string Truck::Carried() const
 {
-    return "Package will be carried by Truck";
+    return "[Abstract Factory]Package will be carried by Truck";
 }
 
 bool Truck::CanCarryVolume() const

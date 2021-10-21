@@ -12,9 +12,15 @@ add_executable(ConsoleDesignApps
     headers/AbstractFactory/AbstractClasses/Vehicle.h
     headers/AbstractFactory/Delivery.h
     headers/AbstractFactory/PackageTypes.h
+    headers/Strategy/Strategies.h
+    headers/Strategy/StringStrategy.h
+    DesignPatternHandler/DPHandler.h
+    DesignPatternHandler/DPHandler.cpp
     sources/AbstractFactory/Delivery.cpp
     sources/AbstractFactory/Transportation.cpp
     sources/AbstractFactory/Package.cpp
+    sources/Strategy/Strategies.cpp
+    sources/Strategy/StringStrategy.cpp
     )
 
 find_package(Threads)

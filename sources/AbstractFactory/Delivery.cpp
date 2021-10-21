@@ -2,14 +2,15 @@
 
 Delivery::Delivery()
 {
-    std::cout<< "Delivery is being created:\n";
+    std::cout<< "[Abstract Factory]Delivery is being created:\n";
+
 }
 
 Delivery::~Delivery()
 {
     delete this->package;
     delete this->transporter;
-    std::cout<< "Delivery request is completed!\n";
+    std::cout<< "[Abstract Factory]Delivery request is completed!\n";
 }
 
 void Delivery::AssignPackage(Package* pack)
@@ -25,10 +26,10 @@ void Delivery::AssignVehicle(Vehicle* veh)
 Vehicle* Delivery::SetCarForCommand()
 {
     char a;
-    std::string meniuText = "Choose type of transportation\n1.Car\n2.Bycicle\n3.Truck\n";
+    std::string meniuText = "[Abstract Factory]Choose type of transportation\n1.Car\n2.Bycicle\n3.Truck\n";
     std::cout << meniuText << std::endl;
 
-    std::cout << "\nYour input: ";
+    std::cout << "\n[Abstract Factory]Your input: ";
     std::cin >> a;
 
     switch(a){
@@ -45,7 +46,7 @@ Vehicle* Delivery::SetCarForCommand()
         break;
 
         default:
-        std::cout << "Invalid input, please retry" << std::endl;
+        std::cout << "[Abstract Factory]Invalid input, please retry" << std::endl;
         SetCarForCommand();
         break;
     }
@@ -55,10 +56,10 @@ Vehicle* Delivery::SetCarForCommand()
 Package* Delivery::SetPackageSizeForCommand()
 {
     char a;
-    std::string meniuText = "Choose size of package\n1.Small\n2.Medium\n3.Big\n";
+    std::string meniuText = "[Abstract Factory]Choose size of package\n1.Small\n2.Medium\n3.Big\n";
     std::cout << meniuText << std::endl;
 
-    std::cout << "\nYour input: ";
+    std::cout << "\n[Abstract Factory]Your input: ";
     std::cin >> a;
 
     switch(a){
@@ -75,7 +76,7 @@ Package* Delivery::SetPackageSizeForCommand()
         break;
 
         default:
-        std::cout << "Invalid input, please retry" << std::endl;
+        std::cout << "[Abstract Factory]Invalid input, please retry" << std::endl;
         SetCarForCommand();
         break;
     }
@@ -92,7 +93,6 @@ void Delivery::MakeDelivery()
             throw transporter;
         }
         
-
         AssignPackage(SetPackageSizeForCommand());
         if(this->package == nullptr)
         {
@@ -106,23 +106,26 @@ void Delivery::MakeDelivery()
 
         std::cout << this->package->Name() << std::endl;
         std::cout << this->transporter->Carried()<< std::endl;
-        
+        std::cout << "[Abstract Factory]The command is being prepared\n";
+
+
     }
     catch(Package* packErr)
     {
-       std::cout << "Something happend when selecting the package for delivery\n";
+       std::cout << "[Abstract Factory]Something happend when selecting the package for delivery\n";
        MakeDelivery();
     }
     catch(Vehicle* vehError)
     {
-        std::cout << "Something happend when selecting a vehicle for delivery\n";
+        std::cout << "[Abstract Factory]Something happend when selecting a vehicle for delivery\n";
         MakeDelivery();
     }
     catch(bool carryErr)
     {
         if(carryErr == false)
         {
-            std::cout << "Can't carry the load with the requested vehicle\n";
+            std::cout << "[Abstract Factory]Can't carry the load with the requested vehicle\n";
         }
     }
+
 }
