@@ -91,16 +91,17 @@ void Menu::DesingPatternsPage()
         if( currentRunningThread == desingPatterns::AbsFactory)
         {
             RunDesignPattern(currentRunningThread);
+            DesingPatternsPage();
         }
         else
         {
         
         std::cout << std::endl;
-        t1 = std::thread(&Menu::RunDesignPattern,this,currentRunningThread);  
+        t1 = std::thread(&Menu::RunDesignPattern,this,currentRunningThread);       
+        t2 = std::thread(&Menu::DesingPatternsPage,this);
+
         std::cout << "[Menu]Started thread with id:"; std::cout << t1.get_id();
         }           
-        
-        t2 = std::thread(&Menu::DesingPatternsPage,this);
 
     }
     else
