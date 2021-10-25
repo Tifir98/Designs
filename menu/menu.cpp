@@ -1,4 +1,5 @@
 #include "menu.h"
+
 Menu::Menu() : handler(new DesignPatternHandler())
 {
 
@@ -11,15 +12,19 @@ Menu::~Menu()
 
 void Menu::RunDesignPattern(desingPatterns value)
 {
-    
-    if(value  == desingPatterns::AbsFactory )
+    switch(value)
     {
+        case desingPatterns::AbsFactory:
         handler->RunAbsFactory();
-    }
-    else
-    if(value == desingPatterns::Strategy )
-    {        
+        break;
+
+        case desingPatterns::Strategy:
         handler->RunStrategy();
+        break;
+
+        case desingPatterns::Observer:
+        handler->RunObservatory();
+        break;
     }
 }
 
@@ -63,7 +68,7 @@ void Menu::DesingPatternsPage()
 {
     std::thread t1;
     char a;
-    std::cout << "\n[Menu]Choose Desing Pattern to run\n1.Abstract Factory\n2.Strategy\n0.Exit" << std::endl;
+    std::cout << "\n[Menu]Choose Desing Pattern to run\n1.Abstract Factory\n2.Strategy\n3.Observer\n0.Exit" << std::endl;
     std::cout << "\n[Menu]Your input:\n";
     std::cin >> a;
     int result = a - '0'; 

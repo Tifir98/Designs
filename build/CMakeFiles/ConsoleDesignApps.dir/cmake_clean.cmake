@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/ConsoleDesignApps.dir/sources/AbstractFactory/Delivery.cpp.o"
   "CMakeFiles/ConsoleDesignApps.dir/sources/AbstractFactory/Package.cpp.o"
   "CMakeFiles/ConsoleDesignApps.dir/sources/AbstractFactory/Transportation.cpp.o"
+  "CMakeFiles/ConsoleDesignApps.dir/sources/Observatory/Observer.cpp.o"
+  "CMakeFiles/ConsoleDesignApps.dir/sources/Observatory/Subject.cpp.o"
   "CMakeFiles/ConsoleDesignApps.dir/sources/Strategy/Strategies.cpp.o"
   "CMakeFiles/ConsoleDesignApps.dir/sources/Strategy/StringStrategy.cpp.o"
   "ConsoleDesignApps"

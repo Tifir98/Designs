@@ -14,6 +14,8 @@ add_executable(ConsoleDesignApps
     headers/AbstractFactory/PackageTypes.h
     headers/Strategy/Strategies.h
     headers/Strategy/StringStrategy.h
+    headers/Observatory/AbstractClasses/IObserver.h
+    headers/Observatory/AbstractClasses/ISubject.h
     DesignPatternHandler/DPHandler.h
     DesignPatternHandler/DPHandler.cpp
     sources/AbstractFactory/Delivery.cpp
@@ -21,6 +23,8 @@ add_executable(ConsoleDesignApps
     sources/AbstractFactory/Package.cpp
     sources/Strategy/Strategies.cpp
     sources/Strategy/StringStrategy.cpp
+    sources/Observatory/Observer.cpp
+    sources/Observatory/Subject.cpp
     )
 
 find_package(Threads)

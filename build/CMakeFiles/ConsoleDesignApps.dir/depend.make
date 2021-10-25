@@ -8,6 +8,10 @@ CMakeFiles/ConsoleDesignApps.dir/DesignPatternHandler/DPHandler.cpp.o: ../header
 CMakeFiles/ConsoleDesignApps.dir/DesignPatternHandler/DPHandler.cpp.o: ../headers/AbstractFactory/Delivery.h
 CMakeFiles/ConsoleDesignApps.dir/DesignPatternHandler/DPHandler.cpp.o: ../headers/AbstractFactory/PackageTypes.h
 CMakeFiles/ConsoleDesignApps.dir/DesignPatternHandler/DPHandler.cpp.o: ../headers/AbstractFactory/Transportation.h
+CMakeFiles/ConsoleDesignApps.dir/DesignPatternHandler/DPHandler.cpp.o: ../headers/Observatory/AbstractClasses/IObserver.h
+CMakeFiles/ConsoleDesignApps.dir/DesignPatternHandler/DPHandler.cpp.o: ../headers/Observatory/AbstractClasses/ISubject.h
+CMakeFiles/ConsoleDesignApps.dir/DesignPatternHandler/DPHandler.cpp.o: ../headers/Observatory/Observer.h
+CMakeFiles/ConsoleDesignApps.dir/DesignPatternHandler/DPHandler.cpp.o: ../headers/Observatory/Subject.h
 CMakeFiles/ConsoleDesignApps.dir/DesignPatternHandler/DPHandler.cpp.o: ../headers/Strategy/Strategies.h
 CMakeFiles/ConsoleDesignApps.dir/DesignPatternHandler/DPHandler.cpp.o: ../headers/Strategy/StringStrategy.h
 CMakeFiles/ConsoleDesignApps.dir/DesignPatternHandler/DPHandler.cpp.o: ../menu/utility.h
@@ -18,6 +22,10 @@ CMakeFiles/ConsoleDesignApps.dir/main.cpp.o: ../headers/AbstractFactory/Abstract
 CMakeFiles/ConsoleDesignApps.dir/main.cpp.o: ../headers/AbstractFactory/Delivery.h
 CMakeFiles/ConsoleDesignApps.dir/main.cpp.o: ../headers/AbstractFactory/PackageTypes.h
 CMakeFiles/ConsoleDesignApps.dir/main.cpp.o: ../headers/AbstractFactory/Transportation.h
+CMakeFiles/ConsoleDesignApps.dir/main.cpp.o: ../headers/Observatory/AbstractClasses/IObserver.h
+CMakeFiles/ConsoleDesignApps.dir/main.cpp.o: ../headers/Observatory/AbstractClasses/ISubject.h
+CMakeFiles/ConsoleDesignApps.dir/main.cpp.o: ../headers/Observatory/Observer.h
+CMakeFiles/ConsoleDesignApps.dir/main.cpp.o: ../headers/Observatory/Subject.h
 CMakeFiles/ConsoleDesignApps.dir/main.cpp.o: ../headers/Strategy/Strategies.h
 CMakeFiles/ConsoleDesignApps.dir/main.cpp.o: ../headers/Strategy/StringStrategy.h
 CMakeFiles/ConsoleDesignApps.dir/main.cpp.o: ../main.cpp
@@ -30,6 +38,10 @@ CMakeFiles/ConsoleDesignApps.dir/menu/menu.cpp.o: ../headers/AbstractFactory/Abs
 CMakeFiles/ConsoleDesignApps.dir/menu/menu.cpp.o: ../headers/AbstractFactory/Delivery.h
 CMakeFiles/ConsoleDesignApps.dir/menu/menu.cpp.o: ../headers/AbstractFactory/PackageTypes.h
 CMakeFiles/ConsoleDesignApps.dir/menu/menu.cpp.o: ../headers/AbstractFactory/Transportation.h
+CMakeFiles/ConsoleDesignApps.dir/menu/menu.cpp.o: ../headers/Observatory/AbstractClasses/IObserver.h
+CMakeFiles/ConsoleDesignApps.dir/menu/menu.cpp.o: ../headers/Observatory/AbstractClasses/ISubject.h
+CMakeFiles/ConsoleDesignApps.dir/menu/menu.cpp.o: ../headers/Observatory/Observer.h
+CMakeFiles/ConsoleDesignApps.dir/menu/menu.cpp.o: ../headers/Observatory/Subject.h
 CMakeFiles/ConsoleDesignApps.dir/menu/menu.cpp.o: ../headers/Strategy/Strategies.h
 CMakeFiles/ConsoleDesignApps.dir/menu/menu.cpp.o: ../headers/Strategy/StringStrategy.h
 CMakeFiles/ConsoleDesignApps.dir/menu/menu.cpp.o: ../menu/menu.cpp
@@ -51,10 +63,23 @@ CMakeFiles/ConsoleDesignApps.dir/sources/AbstractFactory/Transportation.cpp.o: .
 CMakeFiles/ConsoleDesignApps.dir/sources/AbstractFactory/Transportation.cpp.o: ../headers/AbstractFactory/Transportation.h
 CMakeFiles/ConsoleDesignApps.dir/sources/AbstractFactory/Transportation.cpp.o: ../sources/AbstractFactory/Transportation.cpp
 
+CMakeFiles/ConsoleDesignApps.dir/sources/Observatory/Observer.cpp.o: ../headers/Observatory/AbstractClasses/IObserver.h
+CMakeFiles/ConsoleDesignApps.dir/sources/Observatory/Observer.cpp.o: ../headers/Observatory/AbstractClasses/ISubject.h
+CMakeFiles/ConsoleDesignApps.dir/sources/Observatory/Observer.cpp.o: ../headers/Observatory/Observer.h
+CMakeFiles/ConsoleDesignApps.dir/sources/Observatory/Observer.cpp.o: ../headers/Observatory/Subject.h
+CMakeFiles/ConsoleDesignApps.dir/sources/Observatory/Observer.cpp.o: ../sources/Observatory/Observer.cpp
+
+CMakeFiles/ConsoleDesignApps.dir/sources/Observatory/Subject.cpp.o: ../headers/Observatory/AbstractClasses/IObserver.h
+CMakeFiles/ConsoleDesignApps.dir/sources/Observatory/Subject.cpp.o: ../headers/Observatory/AbstractClasses/ISubject.h
+CMakeFiles/ConsoleDesignApps.dir/sources/Observatory/Subject.cpp.o: ../headers/Observatory/Subject.h
+CMakeFiles/ConsoleDesignApps.dir/sources/Observatory/Subject.cpp.o: ../sources/Observatory/Subject.cpp
+
 CMakeFiles/ConsoleDesignApps.dir/sources/Strategy/Strategies.cpp.o: ../headers/Strategy/Strategies.h
+CMakeFiles/ConsoleDesignApps.dir/sources/Strategy/Strategies.cpp.o: ../menu/utility.h
 CMakeFiles/ConsoleDesignApps.dir/sources/Strategy/Strategies.cpp.o: ../sources/Strategy/Strategies.cpp
 
 CMakeFiles/ConsoleDesignApps.dir/sources/Strategy/StringStrategy.cpp.o: ../headers/Strategy/Strategies.h
 CMakeFiles/ConsoleDesignApps.dir/sources/Strategy/StringStrategy.cpp.o: ../headers/Strategy/StringStrategy.h
+CMakeFiles/ConsoleDesignApps.dir/sources/Strategy/StringStrategy.cpp.o: ../menu/utility.h
 CMakeFiles/ConsoleDesignApps.dir/sources/Strategy/StringStrategy.cpp.o: ../sources/Strategy/StringStrategy.cpp
 

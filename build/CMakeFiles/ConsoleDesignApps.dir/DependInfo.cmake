@@ -10,6 +10,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/user/app/sources/AbstractFactory/Delivery.cpp" "/home/user/app/build/CMakeFiles/ConsoleDesignApps.dir/sources/AbstractFactory/Delivery.cpp.o"
   "/home/user/app/sources/AbstractFactory/Package.cpp" "/home/user/app/build/CMakeFiles/ConsoleDesignApps.dir/sources/AbstractFactory/Package.cpp.o"
   "/home/user/app/sources/AbstractFactory/Transportation.cpp" "/home/user/app/build/CMakeFiles/ConsoleDesignApps.dir/sources/AbstractFactory/Transportation.cpp.o"
+  "/home/user/app/sources/Observatory/Observer.cpp" "/home/user/app/build/CMakeFiles/ConsoleDesignApps.dir/sources/Observatory/Observer.cpp.o"
+  "/home/user/app/sources/Observatory/Subject.cpp" "/home/user/app/build/CMakeFiles/ConsoleDesignApps.dir/sources/Observatory/Subject.cpp.o"
   "/home/user/app/sources/Strategy/Strategies.cpp" "/home/user/app/build/CMakeFiles/ConsoleDesignApps.dir/sources/Strategy/Strategies.cpp.o"
   "/home/user/app/sources/Strategy/StringStrategy.cpp" "/home/user/app/build/CMakeFiles/ConsoleDesignApps.dir/sources/Strategy/StringStrategy.cpp.o"
   )

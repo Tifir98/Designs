@@ -1,6 +1,6 @@
 #Directories
-build
-.vscode
+/build
+/.vscode
 
  User-specific files
 *.rsuser

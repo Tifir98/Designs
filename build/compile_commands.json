@@ -38,5 +38,15 @@
   "directory": "/home/user/app/build",
   "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/user/app/headers  -g   -o CMakeFiles/ConsoleDesignApps.dir/sources/Strategy/StringStrategy.cpp.o -c /home/user/app/sources/Strategy/StringStrategy.cpp",
   "file": "/home/user/app/sources/Strategy/StringStrategy.cpp"
+},
+{
+  "directory": "/home/user/app/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/user/app/headers  -g   -o CMakeFiles/ConsoleDesignApps.dir/sources/Observatory/Observer.cpp.o -c /home/user/app/sources/Observatory/Observer.cpp",
+  "file": "/home/user/app/sources/Observatory/Observer.cpp"
+},
+{
+  "directory": "/home/user/app/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/user/app/headers  -g   -o CMakeFiles/ConsoleDesignApps.dir/sources/Observatory/Subject.cpp.o -c /home/user/app/sources/Observatory/Subject.cpp",
+  "file": "/home/user/app/sources/Observatory/Subject.cpp"
 }
 ]

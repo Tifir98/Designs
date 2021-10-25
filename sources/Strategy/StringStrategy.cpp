@@ -30,7 +30,7 @@ StringStrategy::~StringStrategy()
 
 void StringStrategy::SetStrategy(Strategy *strategy)
 {
-    //delete this->strategy_;
+    delete this->strategy_;
     this->strategy_ = strategy;
 }
 

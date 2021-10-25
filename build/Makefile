@@ -682,6 +682,60 @@ sources/AbstractFactory/Transportation.cpp.s:
 	$(MAKE) -f CMakeFiles/ConsoleDesignApps.dir/build.make CMakeFiles/ConsoleDesignApps.dir/sources/AbstractFactory/Transportation.cpp.s
 .PHONY : sources/AbstractFactory/Transportation.cpp.s
 
+sources/Observatory/Observer.o: sources/Observatory/Observer.cpp.o
+
+.PHONY : sources/Observatory/Observer.o
+
+# target to build an object file
+sources/Observatory/Observer.cpp.o:
+	$(MAKE) -f CMakeFiles/ConsoleDesignApps.dir/build.make CMakeFiles/ConsoleDesignApps.dir/sources/Observatory/Observer.cpp.o
+.PHONY : sources/Observatory/Observer.cpp.o
+
+sources/Observatory/Observer.i: sources/Observatory/Observer.cpp.i
+
+.PHONY : sources/Observatory/Observer.i
+
+# target to preprocess a source file
+sources/Observatory/Observer.cpp.i:
+	$(MAKE) -f CMakeFiles/ConsoleDesignApps.dir/build.make CMakeFiles/ConsoleDesignApps.dir/sources/Observatory/Observer.cpp.i
+.PHONY : sources/Observatory/Observer.cpp.i
+
+sources/Observatory/Observer.s: sources/Observatory/Observer.cpp.s
+
+.PHONY : sources/Observatory/Observer.s
+
+# target to generate assembly for a file
+sources/Observatory/Observer.cpp.s:
+	$(MAKE) -f CMakeFiles/ConsoleDesignApps.dir/build.make CMakeFiles/ConsoleDesignApps.dir/sources/Observatory/Observer.cpp.s
+.PHONY : sources/Observatory/Observer.cpp.s
+
+sources/Observatory/Subject.o: sources/Observatory/Subject.cpp.o
+
+.PHONY : sources/Observatory/Subject.o
+
+# target to build an object file
+sources/Observatory/Subject.cpp.o:
+	$(MAKE) -f CMakeFiles/ConsoleDesignApps.dir/build.make CMakeFiles/ConsoleDesignApps.dir/sources/Observatory/Subject.cpp.o
+.PHONY : sources/Observatory/Subject.cpp.o
+
+sources/Observatory/Subject.i: sources/Observatory/Subject.cpp.i
+
+.PHONY : sources/Observatory/Subject.i
+
+# target to preprocess a source file
+sources/Observatory/Subject.cpp.i:
+	$(MAKE) -f CMakeFiles/ConsoleDesignApps.dir/build.make CMakeFiles/ConsoleDesignApps.dir/sources/Observatory/Subject.cpp.i
+.PHONY : sources/Observatory/Subject.cpp.i
+
+sources/Observatory/Subject.s: sources/Observatory/Subject.cpp.s
+
+.PHONY : sources/Observatory/Subject.s
+
+# target to generate assembly for a file
+sources/Observatory/Subject.cpp.s:
+	$(MAKE) -f CMakeFiles/ConsoleDesignApps.dir/build.make CMakeFiles/ConsoleDesignApps.dir/sources/Observatory/Subject.cpp.s
+.PHONY : sources/Observatory/Subject.cpp.s
+
 sources/Strategy/Strategies.o: sources/Strategy/Strategies.cpp.o
 
 .PHONY : sources/Strategy/Strategies.o
@@ -794,6 +848,12 @@ help:
 	@echo "... sources/AbstractFactory/Transportation.o"
 	@echo "... sources/AbstractFactory/Transportation.i"
 	@echo "... sources/AbstractFactory/Transportation.s"
+	@echo "... sources/Observatory/Observer.o"
+	@echo "... sources/Observatory/Observer.i"
+	@echo "... sources/Observatory/Observer.s"
+	@echo "... sources/Observatory/Subject.o"
+	@echo "... sources/Observatory/Subject.i"
+	@echo "... sources/Observatory/Subject.s"
 	@echo "... sources/Strategy/Strategies.o"
 	@echo "... sources/Strategy/Strategies.i"
 	@echo "... sources/Strategy/Strategies.s"

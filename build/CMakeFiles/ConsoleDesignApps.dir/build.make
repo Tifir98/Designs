@@ -161,6 +161,32 @@ CMakeFiles/ConsoleDesignApps.dir/sources/Strategy/StringStrategy.cpp.s: cmake_fo
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ConsoleDesignApps.dir/sources/Strategy/StringStrategy.cpp.s"
 	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/app/sources/Strategy/StringStrategy.cpp -o CMakeFiles/ConsoleDesignApps.dir/sources/Strategy/StringStrategy.cpp.s
 
+CMakeFiles/ConsoleDesignApps.dir/sources/Observatory/Observer.cpp.o: CMakeFiles/ConsoleDesignApps.dir/flags.make
+CMakeFiles/ConsoleDesignApps.dir/sources/Observatory/Observer.cpp.o: ../sources/Observatory/Observer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ConsoleDesignApps.dir/sources/Observatory/Observer.cpp.o"
+	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ConsoleDesignApps.dir/sources/Observatory/Observer.cpp.o -c /home/user/app/sources/Observatory/Observer.cpp
+
+CMakeFiles/ConsoleDesignApps.dir/sources/Observatory/Observer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ConsoleDesignApps.dir/sources/Observatory/Observer.cpp.i"
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/app/sources/Observatory/Observer.cpp > CMakeFiles/ConsoleDesignApps.dir/sources/Observatory/Observer.cpp.i
+
+CMakeFiles/ConsoleDesignApps.dir/sources/Observatory/Observer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ConsoleDesignApps.dir/sources/Observatory/Observer.cpp.s"
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/app/sources/Observatory/Observer.cpp -o CMakeFiles/ConsoleDesignApps.dir/sources/Observatory/Observer.cpp.s
+
+CMakeFiles/ConsoleDesignApps.dir/sources/Observatory/Subject.cpp.o: CMakeFiles/ConsoleDesignApps.dir/flags.make
+CMakeFiles/ConsoleDesignApps.dir/sources/Observatory/Subject.cpp.o: ../sources/Observatory/Subject.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ConsoleDesignApps.dir/sources/Observatory/Subject.cpp.o"
+	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ConsoleDesignApps.dir/sources/Observatory/Subject.cpp.o -c /home/user/app/sources/Observatory/Subject.cpp
+
+CMakeFiles/ConsoleDesignApps.dir/sources/Observatory/Subject.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ConsoleDesignApps.dir/sources/Observatory/Subject.cpp.i"
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/app/sources/Observatory/Subject.cpp > CMakeFiles/ConsoleDesignApps.dir/sources/Observatory/Subject.cpp.i
+
+CMakeFiles/ConsoleDesignApps.dir/sources/Observatory/Subject.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ConsoleDesignApps.dir/sources/Observatory/Subject.cpp.s"
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/app/sources/Observatory/Subject.cpp -o CMakeFiles/ConsoleDesignApps.dir/sources/Observatory/Subject.cpp.s
+
 # Object files for target ConsoleDesignApps
 ConsoleDesignApps_OBJECTS = \
 "CMakeFiles/ConsoleDesignApps.dir/main.cpp.o" \
@@ -170,7 +196,9 @@ ConsoleDesignApps_OBJECTS = \
 "CMakeFiles/ConsoleDesignApps.dir/sources/AbstractFactory/Transportation.cpp.o" \
 "CMakeFiles/ConsoleDesignApps.dir/sources/AbstractFactory/Package.cpp.o" \
 "CMakeFiles/ConsoleDesignApps.dir/sources/Strategy/Strategies.cpp.o" \
-"CMakeFiles/ConsoleDesignApps.dir/sources/Strategy/StringStrategy.cpp.o"
+"CMakeFiles/ConsoleDesignApps.dir/sources/Strategy/StringStrategy.cpp.o" \
+"CMakeFiles/ConsoleDesignApps.dir/sources/Observatory/Observer.cpp.o" \
+"CMakeFiles/ConsoleDesignApps.dir/sources/Observatory/Subject.cpp.o"
 
 # External object files for target ConsoleDesignApps
 ConsoleDesignApps_EXTERNAL_OBJECTS =
@@ -183,9 +211,11 @@ ConsoleDesignApps: CMakeFiles/ConsoleDesignApps.dir/sources/AbstractFactory/Tran
 ConsoleDesignApps: CMakeFiles/ConsoleDesignApps.dir/sources/AbstractFactory/Package.cpp.o
 ConsoleDesignApps: CMakeFiles/ConsoleDesignApps.dir/sources/Strategy/Strategies.cpp.o
 ConsoleDesignApps: CMakeFiles/ConsoleDesignApps.dir/sources/Strategy/StringStrategy.cpp.o
+ConsoleDesignApps: CMakeFiles/ConsoleDesignApps.dir/sources/Observatory/Observer.cpp.o
+ConsoleDesignApps: CMakeFiles/ConsoleDesignApps.dir/sources/Observatory/Subject.cpp.o
 ConsoleDesignApps: CMakeFiles/ConsoleDesignApps.dir/build.make
 ConsoleDesignApps: CMakeFiles/ConsoleDesignApps.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user/app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable ConsoleDesignApps"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user/app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable ConsoleDesignApps"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ConsoleDesignApps.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

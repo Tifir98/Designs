@@ -36,3 +36,51 @@ void DesignPatternHandler::RunAbsFactory()
     Delivery* deliver = new Delivery();
     deliver->MakeDelivery();
 }
+
+void DesignPatternHandler::RunObservatory()
+{
+    Subject *subject1 = new Subject("Subject 1");
+    Subject *subject2 = new Subject("Subject 2");
+    Subject *subject3 = new Subject("Subject 3");
+    Time::Wait();
+    
+    Observer *observer1 = new Observer(*subject1);
+    Observer *observer2 = new Observer(*subject2);
+    Observer *observer3 = new Observer(*subject3);
+    Observer *observer4 = new Observer(*subject1);
+    Observer *observer5 = new Observer(*subject3);
+    Observer *observer6 = new Observer(*subject3);
+    Observer *observer7 = new Observer(*subject2);
+    Time::Wait();
+    
+    subject1->CreateMessage("First subject created!");
+    Time::Wait();
+
+    subject2->CreateMessage("Second subject created!");
+    Time::Wait();
+
+    subject3->CreateMessage("Third subject created!");
+    Time::Wait();
+
+    delete observer5;
+    delete observer4;
+    delete observer1;
+    subject1->CreateMessage("Observer looses interest, we should do something!");
+    subject3->CreateMessage("But what?");
+    Time::Wait();
+   
+    delete observer6;
+    delete observer2;
+    subject3->CreateMessage("Oh oh..");
+    delete observer3;
+    delete subject3;
+    Time::Wait();
+
+    subject2->CreateMessage("I'm out of here!");
+    Time::Wait();
+
+    delete subject2;
+    subject1->CreateMessage("Me too!");  
+    delete subject1;
+    Time::Wait();
+}

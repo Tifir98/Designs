@@ -5,16 +5,13 @@
 #include <thread>
 #include <stdio.h>
 #include <string.h>
+#include "../../menu/utility.h"
 
 class Strategy
 {
 public:
     virtual ~Strategy() {}
-    virtual void Wait()
-     {  
-        std::string aux = "";
-        for(int j =0 ; j <214748367 ; j++){ aux+= "a";}
-    };
+
     virtual std::string DoAlgorithm(std::string data) = 0;
 };
 
