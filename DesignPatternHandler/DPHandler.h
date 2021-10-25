@@ -4,11 +4,14 @@
 #include "../headers/Strategy/StringStrategy.h"
 #include "../headers/Observatory/Observer.h"
 #include "../headers/Observatory/Subject.h"
+#include "../headers/Singleton/Singleton.h"
 #include <thread>
+
 class DesignPatternHandler
 {
 public:
     void RunAbsFactory();
     void RunStrategy();
     void RunObservatory();
+    void RunSingleton();
 };

@@ -16,6 +16,7 @@ add_executable(ConsoleDesignApps
     headers/Strategy/StringStrategy.h
     headers/Observatory/AbstractClasses/IObserver.h
     headers/Observatory/AbstractClasses/ISubject.h
+    headers/Singleton/Singleton.h
     DesignPatternHandler/DPHandler.h
     DesignPatternHandler/DPHandler.cpp
     sources/AbstractFactory/Delivery.cpp
@@ -25,6 +26,7 @@ add_executable(ConsoleDesignApps
     sources/Strategy/StringStrategy.cpp
     sources/Observatory/Observer.cpp
     sources/Observatory/Subject.cpp
+    sources/Singleton/Singleton.cpp
     )
 
 find_package(Threads)

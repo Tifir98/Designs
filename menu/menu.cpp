@@ -25,6 +25,14 @@ void Menu::RunDesignPattern(desingPatterns value)
         case desingPatterns::Observer:
         handler->RunObservatory();
         break;
+
+        case desingPatterns::Singleton:
+        handler->RunSingleton();
+        break;
+
+        default:
+        std::cout << "Invalid input" << std::endl;
+        break;
     }
 }
 
@@ -67,8 +75,9 @@ void Menu::FirstPage()
 void Menu::DesingPatternsPage()
 {
     std::thread t1;
+    std::thread t2;
     char a;
-    std::cout << "\n[Menu]Choose Desing Pattern to run\n1.Abstract Factory\n2.Strategy\n3.Observer\n0.Exit" << std::endl;
+    std::cout << "\n[Menu]Choose Desing Pattern to run\n1.Abstract Factory\n2.Strategy\n3.Observer\n4.Singleton\n0.Exit" << std::endl;
     std::cout << "\n[Menu]Your input:\n";
     std::cin >> a;
     int result = a - '0'; 
@@ -76,36 +85,29 @@ void Menu::DesingPatternsPage()
 
     desingPatterns currentRunningThread = static_cast<desingPatterns>(result);
 
-    try
-    {         
-        if(result != 0)
+    
+    if(result != 0)
+    {
+        if( currentRunningThread == desingPatterns::AbsFactory)
         {
-            if( currentRunningThread == desingPatterns::AbsFactory)
-            {
-                RunDesignPattern(currentRunningThread);
-            }
-            else
-            {
-           
-            std::cout << std::endl;
-            t1 = std::thread(&Menu::RunDesignPattern,this,currentRunningThread);  
-            std::cout << "[Menu]Started thread with id:"; std::cout << t1.get_id();
-
-            }         
-            
-            DesingPatternsPage();
-
+            RunDesignPattern(currentRunningThread);
         }
         else
         {
-            std::cout << "[Menu]Exiting..." << std::endl;
-        }
         
+        std::cout << std::endl;
+        t1 = std::thread(&Menu::RunDesignPattern,this,currentRunningThread);  
+        std::cout << "[Menu]Started thread with id:"; std::cout << t1.get_id();
+        }           
+        
+        t2 = std::thread(&Menu::DesingPatternsPage,this);
+
     }
-    catch(const std::exception& e)
+    else
     {
-        std::cerr << e.what() << '\n';
+        std::cout << "[Menu]Exiting..." << std::endl;
     }
+    
 
 
     if(t1.joinable())
@@ -114,6 +116,16 @@ void Menu::DesingPatternsPage()
         std::cout<<t1.get_id();
         std::cout<< "...\n";
         t1.join();
+
+        std::cout<<"[Menu]closed with success!" << std::endl;
+    }
+
+    if(t2.joinable())
+    {       
+        std::cout <<  "[Menu]Thread with id ";
+        std::cout<<t2.get_id();
+        std::cout<< "...\n";
+        t2.join();
 
         std::cout<<"[Menu]closed with success!" << std::endl;
     }

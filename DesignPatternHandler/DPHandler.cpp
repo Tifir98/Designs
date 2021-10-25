@@ -31,6 +31,7 @@ void DesignPatternHandler::RunStrategy()
         std::cout << "[Strategy]Finished with success" << std::endl;
     }
 }
+
 void DesignPatternHandler::RunAbsFactory()
 {
     Delivery* deliver = new Delivery();
@@ -83,4 +84,13 @@ void DesignPatternHandler::RunObservatory()
     subject1->CreateMessage("Me too!");  
     delete subject1;
     Time::Wait();
+}
+
+void DesignPatternHandler::RunSingleton()
+{
+    Singleton* game = Singleton::GetInstance();
+    if(game != nullptr)
+    {
+        game->FindTheRandomNumber();
+    }
 }
